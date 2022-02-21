@@ -7,10 +7,10 @@ MSDR: Multi-Step Dependency Relation Networks for Spatial Temporal Forecasting
 ## GMSDR For Task Of Demand Prediction
 The traffic data files, i.e., taxi_data.h5 and bike_data.h5, are available at [Baidu Yun](https://pan.baidu.com/s/1mFeS8-WcbzndPXGaJDGDEQ?pwd=tstw), and should be put into the `data/nogrid/` folder. 
 ```shell
-# Taxi
+# NYC Taxi
 python main.py --type=taxi
 
-# Bike
+# NYC City Bike
 python main.py --type=bike
 ```
 
